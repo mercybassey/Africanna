@@ -1,0 +1,25 @@
+.African{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo{
+    width: 24ch;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2rem;
+    color: white;
+
+    
+}
+
+@media screen and (max-width:800px){
+    .typing-demo{
+        position: relative;
+        top:-120px;
+    }
+}
+

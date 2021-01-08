@@ -37,6 +37,13 @@ const AboutAfricaTitle = styled.h3`
         font-size:2rem;
         
     }
+
+    @media screen and (max-width:800px) {
+        position:relative;
+        top:-60px;
+        text-align:center;
+        left:150px;
+    }
 `
 
 const AboutAfrica = styled.div`
@@ -51,6 +58,14 @@ const AboutAfrica = styled.div`
         text-align:center;
         left:-50px;
     }
+
+    @media screen and (max-width:800px) {
+        position:relative;
+        top:90px;
+        text-align:center;
+        left:-50px;
+    }
+
 `
 
 

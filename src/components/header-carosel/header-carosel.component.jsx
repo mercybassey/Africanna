@@ -21,6 +21,14 @@ const CarouselContainer = styled.div`
     position: relative;
     top: -490px;
   }
+
+  @media screen and (max-width:800px) {
+    margin: 0 auto;
+    height:250px;
+    width:250px;
+    position: relative;
+    top: -290px;
+  }
  
 `
 const Image = styled.img`
@@ -36,6 +44,9 @@ const Image = styled.img`
     width:250px;
    
   }
+
+  
+ 
 `
 
 

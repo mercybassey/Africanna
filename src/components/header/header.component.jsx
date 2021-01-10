@@ -8,7 +8,7 @@ import HeaderCarousel from "../../components/header-carosel/header-carosel.compo
 
 
 const HeaderImage = styled.div`
-    background-image: url(../../images/header2.jpg);
+    background-image: url(../../images/headerzip.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;

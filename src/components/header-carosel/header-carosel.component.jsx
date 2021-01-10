@@ -14,12 +14,12 @@ const CarouselContainer = styled.div`
   margin: 0 auto;
   
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:360px) {
     margin: 0 auto;
     height:250px;
     width:250px;
     position: relative;
-    top: -490px;
+   bottom:50px;
   }
 
   @media screen and (max-width:800px) {
@@ -27,7 +27,7 @@ const CarouselContainer = styled.div`
     height:250px;
     width:250px;
     position: relative;
-    top: -290px;
+    top: -480px;
   }
  
 `

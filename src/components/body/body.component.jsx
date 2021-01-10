@@ -11,9 +11,9 @@ const Container = styled.div`
     height: 100vh;
     position:relative;
     top:200px;
-    bottom:100px;
     align-items: center;
     justify-content: center;
+    margin:0 auto;
 `
 
 const AboutAfricaTitle = styled.h3`
@@ -27,10 +27,9 @@ const AboutAfricaTitle = styled.h3`
     
 
     @media screen and (max-width:800px) {
+        margin:0 auto;
         position:relative;
-        top:-60px;
-        text-align:center;
-        left:-30px;
+        top:-170px;
     }
 `
 
@@ -43,9 +42,8 @@ const AboutAfrica = styled.div`
 
     @media screen and (max-width:800px) {
         position:relative;
-        top:-90px;
-        text-align:center;
-        left:-10px;
+        top:-150px;
+        margin:0 auto;
     }
 
 `
@@ -64,6 +62,7 @@ font-weight:bold;
 @media screen and (max-width:800px) {
     position:relative;
     top:-100px;
+    margin:0 auto;
 }
 `
 const ImageContainer = styled.div`
@@ -76,6 +75,7 @@ margin:0 auto;
 @media screen and (max-width:800px) {
     position:relative;
     top:-80px;
+    margin:0 auto;
 }
 `
 
@@ -88,6 +88,7 @@ height:100%;
 position:relative;
    width:100%;
    margin:20px;
+   margin:0 auto;
 }
 `
 

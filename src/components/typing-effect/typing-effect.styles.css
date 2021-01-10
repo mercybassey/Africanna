@@ -23,3 +23,11 @@
     }
 }
 
+
+@media screen and (max-width:360px){
+    .typing-demo{
+        position: relative;
+        top:120px;
+    }
+}
+

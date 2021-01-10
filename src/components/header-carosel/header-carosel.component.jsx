@@ -19,7 +19,7 @@ const CarouselContainer = styled.div`
     height:250px;
     width:250px;
     position: relative;
-   bottom:50px;
+    top:20px;
   }
 
   @media screen and (max-width:800px) {

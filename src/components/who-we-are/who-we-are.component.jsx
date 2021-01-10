@@ -7,14 +7,16 @@ background-image: url(../../images/whoweare.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 35rem;
-overflow: hidden;
-margin-top:150px;
+// overflow: hidden;
+margin-top:100px;
 opacity:19;
 
-@media screen (max-width: 375px) {
+@media screen and (max-width: 375px) {
     width:100%;
+    height: 68rem;
     position:relative;
-    margin-top:2000px !important;
+    top:800px;
+   
 }
 `
 
@@ -47,7 +49,7 @@ margin:0 auto;
 
 const WhoWeAre = () => {
     return(
-        <WhoWeAreContainer className="animate__animated animate__fadeInLeft animate__delay-4s">
+        <WhoWeAreContainer className="animate__animated animate__fadeInLeft animate__delay-9s">
             <Text className="animate__animated animate__fadeInLeft animate__delay-5s">The African Woman</Text>
             <MainText className="animate__animated animate__fadeInLeft animate__delay-6s">We the african women, we are strong!
                 We are Beautiful, We dont settle for less that what we deserve
